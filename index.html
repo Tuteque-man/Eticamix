@@ -1,0 +1,1155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entrevista a un Informático</title>
+    <link rel="icon" type="image/svg+xml" 
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' fill='black'/%3E%3Cpolygon points='50,10 20,50 50,90 80,50' fill='none' stroke='%23ff0000' stroke-width='6'/%3E%3Ccircle cx='50' cy='50' r='5' fill='%23ff0000'/%3E%3C/svg%3E" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="eticamix.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- Incluye Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+<body>
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo-link">
+                <svg class="logo-svg" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                    <defs>
+                        <linearGradient id="logoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" style="stop-color:#fff;stop-opacity:1" />
+                            <stop offset="100%" style="stop-color:#ff3366;stop-opacity:1" />
+                        </linearGradient>
+                    </defs>
+                    <polygon points="50,10 20,50 50,90 80,50" fill="none" stroke="url(#logoGrad)" stroke-width="3"/>
+                    <circle cx="50" cy="50" r="5" fill="url(#logoGrad)"/>
+                </svg>
+                <span class="logo-text">Eticamix</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link active">Inicio</a></li>
+                <li><a href="#collections" class="nav-link">Visión y Misión</a></li>
+                <li><a href="#collections" class="nav-link">Valores y Ética</a></li>
+                <li><a href="#contact" class="nav-link">Contacto</a></li>
+                <li><a href="#codigo-etica-informatica" class="nav-cta">Más información</a></li>
+            </ul>
+            <div class="menu-toggle" id="menuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+    <div class="mobile-nav" id="mobileNav">
+        <ul class="mobile-nav-links">
+            <li><a href="#home">Inicio</a></li>
+            <li><a href="#collections">Visión y Misión</a></li>
+            <li><a href="#codigo-etica-informatica">Código de ética</a></li>
+            <li><a href="#delitos-informaticos">Marco legal y protección</a></li>
+            <li><a href="#habilidades">Perfil profesional</a></li>
+            <li><a href="#desafios-eticos">Desafíos éticos</a></li>
+            <li><a href="#decalogo-etico">Decálogo ético</a></li>
+            <li><a href="#contact">Contacto</a></li>
+        </ul>
+    </div>
+    <section class="hero" id="home">
+        <div class="hero-bg"></div>
+        <div class="hero-container">
+            <div class="hero-left">
+                <div class="hero-badge">Oficina de Informática</div>
+                <h1 class="hero-title">
+                    <span class="line"><span>Entrevista</span></span>
+                    <span class="line"><span>a un trabajador <span class="accent">Informático</span></span></span>
+                </h1>
+                <p class="hero-description">
+                    Resumen de la visión, misión, valores, ética y perfil del TSU en Informática de la
+                    Oficina de Informática de la Alcaldía del Municipio Iribarren.
+                </p>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number">4</span>
+                        <span class="stat-label">Integrantes</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">1</span>
+                        <span class="stat-label">Oficina de Informática</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">1</span>
+                        <span class="stat-label">Entrevistado</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">100%</span>
+                        <span class="stat-label">Compromiso Ético</span>
+                    </div>
+                </div>
+                <div class="cta-group">
+                    <a href="#collections" class="cta-button primary">Ver Visión y Misión</a>
+                    <a href="#collections" class="cta-button outline">Ver Valores y Ética</a>
+                </div>
+            </div>
+            <div class="hero-right">
+                <div class="hero-image-wrapper">
+                    <div class="hero-carousel">
+                        <div class="carousel-slide active">
+                            <img src="https://images.pexels.com/photos/2881232/pexels-photo-2881232.jpeg?auto=compress&cs=tinysrgb&w=1200&h=800&fit=crop" alt="Fashion Model 1">
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="https://images.pexels.com/photos/3861964/pexels-photo-3861964.jpeg?auto=compress&cs=tinysrgb&w=1200&h=800&fit=crop" alt="Fashion Model 2">
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="https://images.pexels.com/photos/5380613/pexels-photo-5380613.jpeg?auto=compress&cs=tinysrgb&w=1200&h=800&fit=crop" alt="Profesionales de informática trabajando con enfoque ético y seguro">
+                        </div>
+                        <div class="carousel-overlay"></div>
+                        <div class="carousel-indicators">
+                            <span class="indicator active" data-slide="0"></span>
+                            <span class="indicator" data-slide="1"></span>
+                            <span class="indicator" data-slide="2"></span>
+                        </div>
+                    </div>
+                    <div class="floating-tags">
+                        <div class="tag">Visión</div>
+                        <div class="tag">Misión</div>
+                        <div class="tag">Valores</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span></span>
+        </div>
+    </section>
+    <section class="collections" id="collections">
+        <div class="section-header">
+            <h2 class="section-title">Visión y Misión</h2>
+            <p class="section-subtitle">Oficina de Informática de la Alcaldía del Municipio Iribarren</p>
+        </div>
+        <div class="category-tabs">
+            <button class="tab-btn active" data-category="all">Todo</button>
+            <button class="tab-btn" data-category="women">Visión</button>
+            <button class="tab-btn" data-category="men">Misión</button>
+            <button class="tab-btn" data-category="accessories">Valores</button>
+            <button class="tab-btn" data-category="limited">Perfil TSU</button>
+        </div>
+        <div class="grid" id="collectionsGrid">
+            <div class="collection-card" data-category="women">
+                <div class="collection-thumbnail">
+                    <img loading="lazy" src="https://images.pexels.com/photos/2881232/pexels-photo-2881232.jpeg?auto=compress&cs=tinysrgb&w=1200&h=800&fit=crop" alt="Visión estratégica de la oficina de informática">
+                </div>
+                <div class="card-content">
+                    <span class="card-badge">Visión</span>
+                    <h3 class="card-title">Visión de la Oficina</h3>
+                    <p class="card-subtitle">Ser la oficina líder en tecnología del Municipio Iribarren, apoyando a todas sus dependencias con soluciones modernas.</p>
+                    <p class="card-price">Enfoque en innovación y servicio público</p>
+                </div>
+            </div>
+            <div class="collection-card" data-category="women">
+                <div class="collection-thumbnail">
+                    <img loading="lazy" src="https://images.pexels.com/photos/3184296/pexels-photo-3184296.jpeg?auto=compress&cs=tinysrgb&w=1200&h=800&fit=crop" alt="Ciudad moderna con tecnologías integradas">
+                </div>
+                <div class="card-content">
+                    <span class="card-badge">Visión</span>
+                    <h3 class="card-title">Municipio digital</h3>
+                    <p class="card-subtitle">Consolidar un municipio donde los trámites y servicios públicos se apoyen en plataformas digitales seguras y accesibles.</p>
+                    <p class="card-price">Transformación digital local</p>
+                </div>
+            </div>
+            <div class="collection-card" data-category="women">
+                <div class="collection-thumbnail">
+                    <img loading="lazy" src="https://images.pexels.com/photos/3184460/pexels-photo-3184460.jpeg?auto=compress&cs=tinysrgb&w=1200&h=800&fit=crop" alt="Equipo de informática planificando estrategias a futuro">
+                </div>
+                <div class="card-content">
+                    <span class="card-badge">Visión</span>
+                    <h3 class="card-title">Innovación continua</h3>
+                    <p class="card-subtitle">Convertirse en un referente de innovación tecnológica dentro de la administración pública municipal.</p>
+                    <p class="card-price">Mejora permanente</p>
+                </div>
+            </div>
+            <div class="collection-card" data-category="women">
+                <div class="collection-thumbnail">
+                    <img loading="lazy" src="https://images.pexels.com/photos/3861960/pexels-photo-3861960.jpeg?auto=compress&cs=tinysrgb&w=1200&h=800&fit=crop" alt="Vista panorámica de oficinas interconectadas">
+                </div>
+                <div class="card-content">
+                    <span class="card-badge">Visión</span>
+                    <h3 class="card-title">Oficina integrada</h3>
+                    <p class="card-subtitle">Lograr que todas las direcciones de la Alcaldía trabajen coordinadas mediante sistemas de información comunes.</p>
+                    <p class="card-price">Gestión unificada</p>
+                </div>
+            </div>
+            <div class="collection-card" data-category="women">
+                <div class="collection-thumbnail">
+                    <img loading="lazy" src="https://images.pexels.com/photos/1181467/pexels-photo-1181467.jpeg?auto=compress&cs=tinysrgb&w=1200&h=800&fit=crop" alt="Ciudadanos usando servicios digitales de la Alcaldía">
+                </div>
+                <div class="card-content">
+                    <span class="card-badge">Visión</span>
+                    <h3 class="card-title">Ciudadanía conectada</h3>
+                    <p class="card-subtitle">Facilitar la participación ciudadana a través de canales digitales confiables y amigables.</p>
+                    <p class="card-price">Participación en línea</p>
+                </div>
+            </div>
+            <div class="collection-card" data-category="women">
+                <div class="collection-thumbnail">
+                    <img loading="lazy" src="https://images.pexels.com/photos/3862381/pexels-photo-3862381.jpeg?auto=compress&cs=tinysrgb&w=1200&h=800&fit=crop" alt="Profesionales de informática colaborando en un proyecto de ciudad inteligente">
+                </div>
+                <div class="card-content">
+                    <span class="card-badge">Visión</span>
+                    <h3 class="card-title">Tecnología para el bien común</h3>
+                    <p class="card-subtitle">Orientar los proyectos tecnológicos al beneficio directo de la comunidad y no solo a la modernización interna.</p>
+                    <p class="card-price">Impacto social positivo</p>
+                </div>
+            </div>
+            <div class="collection-card" data-category="women">
+                <div class="collection-thumbnail">
+                    <img loading="lazy" src="https://images.pexels.com/photos/3861967/pexels-photo-3861967.jpeg?auto=compress&cs=tinysrgb&w=1200&h=800&fit=crop" alt="Servidores y equipos tecnológicos organizados">
+                </div>
+                <div class="card-content">
+                    <span class="card-badge">Visión</span>
+                    <h3 class="card-title">Infraestructura robusta</h3>
+                    <p class="card-subtitle">Contar con una plataforma tecnológica estable, escalable y preparada para el crecimiento del municipio.</p>
+                    <p class="card-price">Base sólida para el futuro</p>
+                </div>
+            </div>
+            <div class="collection-card" data-category="women">
+                <div class="collection-thumbnail">
+                    <img loading="lazy" src="https://images.pexels.com/photos/3862611/pexels-photo-3862611.jpeg?auto=compress&cs=tinysrgb&w=1200&h=800&fit=crop" alt="Capacitación tecnológica para funcionarios públicos">
+                </div>
+                <div class="card-content">
+                    <span class="card-badge">Visión</span>
+                    <h3 class="card-title">Talento fortalecido</h3>
+                    <p class="card-subtitle">Visualizar una administración con personal capacitado y actualizado en herramientas informáticas.</p>
+                    <p class="card-price">Formación continua</p>
+                </div>
+            </div>
+            <div class="collection-card" data-category="women">
+                <div class="collection-thumbnail">
+                    <img loading="lazy" src="https://images.pexels.com/photos/3862632/pexels-photo-3862632.jpeg?auto=compress&cs=tinysrgb&w=1200&h=800&fit=crop" alt="Panel de control con indicadores de gestión tecnológica">
+                </div>
+                <div class="card-content">
+                    <span class="card-badge">Visión</span>
+                    <h3 class="card-title">Gestión basada en datos</h3>
+                    <p class="card-subtitle">Impulsar decisiones en la Alcaldía a partir de información confiable y oportunamente procesada.</p>
+                    <p class="card-price">Datos para gobernar mejor</p>
+                </div>
+            </div>
+            <div class="collection-card" data-category="women">
+                <div class="collection-thumbnail">
+                    <img loading="lazy" src="https://images.pexels.com/photos/3862372/pexels-photo-3862372.jpeg?auto=compress&cs=tinysrgb&w=1200&h=800&fit=crop" alt="Ambiente de trabajo ordenado y tecnológico">
+                </div>
+                <div class="card-content">
+                    <span class="card-badge">Visión</span>
+                    <h3 class="card-title">Oficina modelo</h3>
+                    <p class="card-subtitle">Ser reconocida como una oficina organizada, eficiente y tecnológicamente ejemplar dentro del sector público.</p>
+                    <p class="card-price">Referencia institucional</p>
+                </div>
+            </div>
+            <div class="collection-card" data-category="women">
+                <div class="collection-thumbnail">
+                    <img loading="lazy" src="https://images.pexels.com/photos/1181465/pexels-photo-1181465.jpeg?auto=compress&cs=tinysrgb&w=1200&h=800&fit=crop" alt="Mapa del municipio con puntos de conexión tecnológica">
+                </div>
+                <div class="card-content">
+                    <span class="card-badge">Visión</span>
+                    <h3 class="card-title">Municipio interconectado</h3>
+                    <p class="card-subtitle">Imaginar un territorio donde escuelas, ambulatorios y sedes comunales estén conectados a los sistemas de la Alcaldía.</p>
+                    <p class="card-price">Red tecnológica municipal</p>
+                </div>
+            </div>
+            <div class="collection-card" data-category="women">
+                <div class="collection-thumbnail">
+                    <img loading="lazy" src="https://images.pexels.com/photos/3862610/pexels-photo-3862610.jpeg?auto=compress&cs=tinysrgb&w=1200&h=800&fit=crop" alt="Equipo celebrando logros tecnológicos">
+                </div>
+                <div class="card-content">
+                    <span class="card-badge">Visión</span>
+                    <h3 class="card-title">Reconocimiento y confianza</h3>
+                    <p class="card-subtitle">Construir una imagen de confianza ante ciudadanos y autoridades gracias al trabajo tecnológico bien realizado.</p>
+                    <p class="card-price">Prestigio institucional</p>
+                </div>
+            </div>
+
+            <div class="collection-card" data-category="men">
+                <div class="collection-thumbnail">
+                    <img loading="lazy" src="https://images.pexels.com/photos/3861964/pexels-photo-3861964.jpeg?auto=compress&cs=tinysrgb&w=1200&h=800&fit=crop" alt="Misión principal de la oficina de informática">
+                </div>
+                <div class="card-content">
+                    <span class="card-badge">Misión</span>
+                    <h3 class="card-title">Misión de la Oficina</h3>
+                    <p class="card-subtitle">Organizar y cuidar la información del municipio con eficiencia, transparencia y uso responsable de la tecnología.</p>
+                    <p class="card-price">Apoyo directo a la gestión pública</p>
+                </div>
+            </div>
+            <div class="collection-card" data-category="men">
+                <div class="collection-thumbnail">
+                    <img loading="lazy" src="https://images.pexels.com/photos/3862373/pexels-photo-3862373.jpeg?auto=compress&cs=tinysrgb&w=1200&h=800&fit=crop" alt="Atención a usuarios en oficina de soporte">
+                </div>
+                <div class="card-content">
+                    <span class="card-badge">Misión</span>
+                    <h3 class="card-title">Brindar soporte técnico</h3>
+                    <p class="card-subtitle">Atender oportunamente las fallas de equipos y sistemas para garantizar la continuidad de los servicios públicos.</p>
+                    <p class="card-price">Respuesta oportuna</p>
+                </div>
+            </div>
+            <div class="collection-card" data-category="men">
+                <div class="collection-thumbnail">
+                    <img loading="lazy" src="https://images.pexels.com/photos/1181272/pexels-photo-1181272.jpeg?auto=compress&cs=tinysrgb&w=1200&h=800&fit=crop" alt="Persona administrando sistemas de información">
+                </div>
+                <div class="card-content">
+                    <span class="card-badge">Misión</span>
+                    <h3 class="card-title">Administrar sistemas</h3>
+                    <p class="card-subtitle">Gestionar bases de datos, aplicaciones y servidores que sostienen los procesos internos de la Alcaldía.</p>
+                    <p class="card-price">Soporte a la gestión</p>
+                </div>
+            </div>
+            <div class="collection-card" data-category="men">
+                <div class="collection-thumbnail">
+                    <img loading="lazy" src="https://images.pexels.com/photos/1181353/pexels-photo-1181353.jpeg?auto=compress&cs=tinysrgb&w=1200&h=800&fit=crop" alt="Equipo revisando normas y procedimientos de seguridad">
+                </div>
+                <div class="card-content">
+                    <span class="card-badge">Misión</span>
+                    <h3 class="card-title">Proteger la información</h3>
+                    <p class="card-subtitle">Aplicar normas de seguridad y respaldos que resguarden los datos institucionales de pérdidas o accesos indebidos.</p>
+                    <p class="card-price">Seguridad de la información</p>
+                </div>
+            </div>
+            <div class="collection-card" data-category="men">
+                <div class="collection-thumbnail">
+                    <img loading="lazy" src="https://images.pexels.com/photos/3184321/pexels-photo-3184321.jpeg?auto=compress&cs=tinysrgb&w=1200&h=800&fit=crop" alt="Reunión de coordinación entre distintas dependencias">
+                </div>
+                <div class="card-content">
+                    <span class="card-badge">Misión</span>
+                    <h3 class="card-title">Acompañar a las direcciones</h3>
+                    <p class="card-subtitle">Trabajar junto a otras dependencias para definir soluciones tecnológicas ajustadas a sus necesidades.</p>
+                    <p class="card-price">Trabajo coordinado</p>
+                </div>
+            </div>
+            <div class="collection-card" data-category="men">
+                <div class="collection-thumbnail">
+                    <img loading="lazy" src="https://images.pexels.com/photos/1181467/pexels-photo-1181467.jpeg?auto=compress&cs=tinysrgb&w=1200&h=800&fit=crop" alt="Persona explicando un sistema a un usuario">
+                </div>
+                <div class="card-content">
+                    <span class="card-badge">Misión</span>
+                    <h3 class="card-title">Capacitar usuarios</h3>
+                    <p class="card-subtitle">Formar a los funcionarios y usuarias en el uso correcto de los sistemas de información municipales.</p>
+                    <p class="card-price">Formación y acompañamiento</p>
+                </div>
+            </div>
+            <div class="collection-card" data-category="men">
+                <div class="collection-thumbnail">
+                    <img loading="lazy" src="https://images.pexels.com/photos/3862132/pexels-photo-3862132.jpeg?auto=compress&cs=tinysrgb&w=1200&h=800&fit=crop" alt="Equipo analizando reportes de gestión">
+                </div>
+                <div class="card-content">
+                    <span class="card-badge">Misión</span>
+                    <h3 class="card-title">Generar reportes</h3>
+                    <p class="card-subtitle">Producir informes y estadísticas que ayuden a la toma de decisiones de las autoridades.</p>
+                    <p class="card-price">Información para decidir</p>
+                </div>
+            </div>
+            <div class="collection-card" data-category="men">
+                <div class="collection-thumbnail">
+                    <img loading="lazy" src="https://www.auditool.org/images/Los_planes_de_respuesta_efectivos_a_incidentes_ciberneticos-12-07-23.png" alt="Pantalla con alertas de ciberseguridad">
+                </div>
+                <div class="card-content">
+                    <span class="card-badge">Misión</span>
+                    <h3 class="card-title">Vigilar incidentes</h3>
+                    <p class="card-subtitle">Monitorear posibles incidentes de seguridad y actuar de forma rápida y responsable.</p>
+                    <p class="card-price">Respuesta ante riesgos</p>
+                </div>
+            </div>
+            <div class="collection-card" data-category="men">
+                <div class="collection-thumbnail">
+                    <img loading="lazy" src="https://images.pexels.com/photos/3861959/pexels-photo-3861959.jpeg?auto=compress&cs=tinysrgb&w=1200&h=800&fit=crop" alt="Persona tomando notas de requerimientos de usuarios">
+                </div>
+                <div class="card-content">
+                    <span class="card-badge">Misión</span>
+                    <h3 class="card-title">Levantar requerimientos</h3>
+                    <p class="card-subtitle">Escuchar las necesidades de las áreas usuarias y traducirlas en proyectos de tecnología.</p>
+                    <p class="card-price">Puente entre áreas</p>
+                </div>
+            </div>
+            <div class="collection-card" data-category="men">
+                <div class="collection-thumbnail">
+                    <img loading="lazy" src="https://images.pexels.com/photos/1181341/pexels-photo-1181341.jpeg?auto=compress&cs=tinysrgb&w=1200&h=800&fit=crop" alt="Profesional revisando documentación técnica">
+                </div>
+                <div class="card-content">
+                    <span class="card-badge">Misión</span>
+                    <h3 class="card-title">Documentar sistemas</h3>
+                    <p class="card-subtitle">Redactar manuales, instructivos y actas que respalden el funcionamiento de los sistemas.</p>
+                    <p class="card-price">Memoria técnica</p>
+                </div>
+            </div>
+            <div class="collection-card" data-category="men">
+                <div class="collection-thumbnail">
+                    <img loading="lazy" src="https://images.pexels.com/photos/3184299/pexels-photo-3184299.jpeg?auto=compress&cs=tinysrgb&w=1200&h=800&fit=crop" alt="Reunión para priorizar proyectos tecnológicos">
+                </div>
+                <div class="card-content">
+                    <span class="card-badge">Misión</span>
+                    <h3 class="card-title">Priorizar proyectos</h3>
+                    <p class="card-subtitle">Ordenar las iniciativas tecnológicas según impacto social, urgencia y recursos disponibles.</p>
+                    <p class="card-price">Gestión de proyectos</p>
+                </div>
+            </div>
+            <div class="collection-card" data-category="men">
+                <div class="collection-thumbnail">
+                    <img loading="lazy" src="https://images.pexels.com/photos/3184298/pexels-photo-3184298.jpeg?auto=compress&cs=tinysrgb&w=1200&h=800&fit=crop" alt="Oficina coordinando con proveedores de tecnología">
+                </div>
+                <div class="card-content">
+                    <span class="card-badge">Misión</span>
+                    <h3 class="card-title">Coordinar con proveedores</h3>
+                    <p class="card-subtitle">Supervisar la adquisición e instalación de equipos y servicios informáticos externos.</p>
+                    <p class="card-price">Alianzas tecnológicas</p>
+                </div>
+            </div>
+
+            <div class="collection-card" data-category="limited">
+                <div class="collection-thumbnail">
+                    <img loading="lazy" src="https://images.pexels.com/photos/3861958/pexels-photo-3861958.jpeg?auto=compress&cs=tinysrgb&w=1200&h=800&fit=crop" alt="Perfil profesional del TSU en informática">
+                </div>
+                <div class="card-content">
+                    <span class="card-badge">Perfil TSU</span>
+                    <h3 class="card-title">Perfil del TSU en Informática</h3>
+                    <p class="card-subtitle">Profesional responsable, disciplinado, que analiza problemas, trabaja en equipo y aprende nuevas herramientas.</p>
+                    <p class="card-price">TSU preparado para nuevos retos</p>
+                </div>
+            </div>
+            <div class="collection-card" data-category="limited">
+                <div class="collection-thumbnail">
+                    <img loading="lazy" src="https://images.pexels.com/photos/3184405/pexels-photo-3184405.jpeg?auto=compress&cs=tinysrgb&w=1200&h=800&fit=crop" alt="Estudiante de informática estudiando en su escritorio">
+                </div>
+                <div class="card-content">
+                    <span class="card-badge">Perfil TSU</span>
+                    <h3 class="card-title">Capacidad de análisis</h3>
+                    <p class="card-subtitle">Analizar problemas complejos y descomponerlos en pasos lógicos para diseñar soluciones informáticas.</p>
+                    <p class="card-price">Pensamiento crítico</p>
+                </div>
+            </div>
+
+            <div class="collection-card" data-category="limited">
+                <div class="collection-thumbnail">
+                    <img loading="lazy" src="https://images.pexels.com/photos/3862371/pexels-photo-3862371.jpeg?auto=compress&cs=tinysrgb&w=1200&h=800&fit=crop" alt="Equipo de trabajo colaborando en un proyecto de software">
+                </div>
+                <div class="card-content">
+                    <span class="card-badge">Perfil TSU</span>
+                    <h3 class="card-title">Trabajo en equipo</h3>
+                    <p class="card-subtitle">Colaborar con otros profesionales, compartir conocimientos y asumir responsabilidades conjuntas.</p>
+                    <p class="card-price">Colaboración efectiva</p>
+                </div>
+            </div>
+
+            <div class="collection-card" data-category="limited">
+                <div class="collection-thumbnail">
+                    <img loading="lazy" src="https://images.pexels.com/photos/3862609/pexels-photo-3862609.jpeg?auto=compress&cs=tinysrgb&w=1200&h=800&fit=crop" alt="Persona actualizándose en nuevas tecnologías">
+                </div>
+                <div class="card-content">
+                    <span class="card-badge">Perfil TSU</span>
+                    <h3 class="card-title">Aprendizaje permanente</h3>
+                    <p class="card-subtitle">Mantenerse actualizado en lenguajes, herramientas y normas de seguridad informática.</p>
+                    <p class="card-price">Formación continua</p>
+                </div>
+            </div>
+
+            <div class="collection-card" data-category="limited">
+                <div class="collection-thumbnail">
+                    <img loading="lazy" src="https://img.freepik.com/fotos-premium/joven-programador-concentrado-trabajo-creativo-o-nuevo-proyecto_236854-52147.jpg" alt="Programador concentrado escribiendo código con responsabilidad">
+                </div>
+                <div class="card-content">
+                    <span class="card-badge">Perfil TSU</span>
+                    <h3 class="card-title">Responsabilidad ética</h3>
+                    <p class="card-subtitle">Tomar decisiones técnicas respetando la ley, la confidencialidad y el bienestar de los usuarios.</p>
+                    <p class="card-price">Conciencia profesional</p>
+                </div>
+            </div>
+
+            <div class="collection-card" data-category="limited">
+                <div class="collection-thumbnail">
+                    <img loading="lazy" src="https://images.pexels.com/photos/1181359/pexels-photo-1181359.jpeg?auto=compress&cs=tinysrgb&w=1200&h=800&fit=crop" alt="TSU organizando su tiempo y tareas diarias">
+                </div>
+                <div class="card-content">
+                    <span class="card-badge">Perfil TSU</span>
+                    <h3 class="card-title">Organización y disciplina</h3>
+                    <p class="card-subtitle">Planificar actividades, cumplir plazos y mantener orden en la documentación y proyectos.</p>
+                    <p class="card-price">Gestión del tiempo</p>
+                </div>
+            </div>
+
+            <div class="collection-card" data-category="limited">
+                <div class="collection-thumbnail">
+                    <img loading="lazy" src="https://images.pexels.com/photos/3184306/pexels-photo-3184306.jpeg?auto=compress&cs=tinysrgb&w=1200&h=800&fit=crop" alt="Presentación de un proyecto tecnológico a autoridades">
+                </div>
+                <div class="card-content">
+                    <span class="card-badge">Perfil TSU</span>
+                    <h3 class="card-title">Comunicación efectiva</h3>
+                    <p class="card-subtitle">Explicar temas técnicos con un lenguaje claro para usuarios, jefes y compañeros.</p>
+                    <p class="card-price">Puente entre lo técnico y lo humano</p>
+                </div>
+            </div>
+
+            <div class="collection-card" data-category="limited">
+                <div class="collection-thumbnail">
+                    <img loading="lazy" src="https://images.pexels.com/photos/1181474/pexels-photo-1181474.jpeg?auto=compress&cs=tinysrgb&w=1200&h=800&fit=crop" alt="TSU resolviendo un problema técnico en la oficina">
+                </div>
+                <div class="card-content">
+                    <span class="card-badge">Perfil TSU</span>
+                    <h3 class="card-title">Resolución de problemas</h3>
+                    <p class="card-subtitle">Identificar la causa raíz de fallas y proponer soluciones creativas y viables.</p>
+                    <p class="card-price">Capacidad de respuesta</p>
+                </div>
+            </div>
+
+            <div class="collection-card" data-category="limited">
+                <div class="collection-thumbnail">
+                    <img loading="lazy" src="https://images.pexels.com/photos/3184631/pexels-photo-3184631.jpeg?auto=compress&cs=tinysrgb&w=1200&h=800&fit=crop" alt="Persona revisando gráficos de desempeño de sistemas">
+                </div>
+                <div class="card-content">
+                    <span class="card-badge">Perfil TSU</span>
+                    <h3 class="card-title">Orientación a resultados</h3>
+                    <p class="card-subtitle">Enfocarse en que los sistemas funcionen y aporten valor real a la gestión pública.</p>
+                    <p class="card-price">Impacto medible</p>
+                </div>
+            </div>
+
+            <div class="collection-card" data-category="limited">
+                <div class="collection-thumbnail">
+                    <img loading="lazy" src="https://images.pexels.com/photos/3184312/pexels-photo-3184312.jpeg?auto=compress&cs=tinysrgb&w=1200&h=800&fit=crop" alt="Grupo de estudiantes de informática compartiendo ideas">
+                </div>
+                <div class="card-content">
+                    <span class="card-badge">Perfil TSU</span>
+                    <h3 class="card-title">Iniciativa y creatividad</h3>
+                    <p class="card-subtitle">Proponer nuevas ideas y mejoras a los procesos existentes utilizando la tecnología.</p>
+                    <p class="card-price">Proactividad tecnológica</p>
+                </div>
+            </div>
+
+            <div class="collection-card" data-category="limited">
+                <div class="collection-thumbnail">
+                    <img loading="lazy" src="https://images.pexels.com/photos/1181269/pexels-photo-1181269.jpeg?auto=compress&cs=tinysrgb&w=1200&h=800&fit=crop" alt="TSU respetando normas y procedimientos institucionales">
+                </div>
+                <div class="card-content">
+                    <span class="card-badge">Perfil TSU</span>
+                    <h3 class="card-title">Respeto a normas</h3>
+                    <p class="card-subtitle">Cumplir reglamentos internos, lineamientos de la carrera y acuerdos de trabajo en equipo.</p>
+                    <p class="card-price">Orden institucional</p>
+                </div>
+            </div>
+
+            <div class="collection-card" data-category="limited">
+                <div class="collection-thumbnail">
+                    <img loading="lazy" src="https://images.pexels.com/photos/3184407/pexels-photo-3184407.jpeg?auto=compress&cs=tinysrgb&w=1200&h=800&fit=crop" alt="TSU apoyando a un ciudadano en un trámite digital">
+                </div>
+                <div class="card-content">
+                    <span class="card-badge">Perfil TSU</span>
+                    <h3 class="card-title">Servicio al ciudadano</h3>
+                    <p class="card-subtitle">Atender con respeto, empatía y paciencia a las personas que requieren apoyo con sistemas y trámites.</p>
+                    <p class="card-price">Vocación de servicio</p>
+                </div>
+            </div>
+
+            <div class="collection-card" data-category="accessories">
+                <div class="collection-thumbnail">
+                    <img loading="lazy" src="https://images.pexels.com/photos/1181263/pexels-photo-1181263.jpeg?auto=compress&cs=tinysrgb&w=1200&h=800&fit=crop" alt="Avant Garde Art Meets Fashion">
+                </div>
+                <div class="card-content">
+                    <span class="card-badge">Código Ético</span>
+                    <h3 class="card-title">Código ético profesional</h3>
+                    <p class="card-subtitle">Trabajar con respeto, responsabilidad y honestidad, cuidando a los compañeros y a los usuarios de los sistemas.</p>
+                    <p class="card-price">Reglas claras para el buen trabajo</p>
+                </div>
+            </div>
+            <div class="collection-card" data-category="accessories">
+                <div class="collection-thumbnail">
+                    <img loading="lazy" src="https://images.pexels.com/photos/3184302/pexels-photo-3184302.jpeg?auto=compress&cs=tinysrgb&w=1200&h=800&fit=crop" alt="Atención a usuarios en oficina pública">
+                </div>
+                <div class="card-content">
+                    <span class="card-badge">Valores</span>
+                    <h3 class="card-title">Servicio al ciudadano</h3>
+                    <p class="card-subtitle">Poner las necesidades de los usuarios en el centro, ofreciendo un trato amable, respuestas claras y soluciones oportunas.</p>
+                    <p class="card-price">Vocación de servicio público</p>
+                </div>
+            </div>
+            <div class="collection-card" data-category="accessories">
+                <div class="collection-thumbnail">
+                    <img loading="lazy" src="https://images.pexels.com/photos/3861964/pexels-photo-3861964.jpeg?auto=compress&cs=tinysrgb&w=1200&h=800&fit=crop" alt="Equipo tomando decisiones justas y equilibradas">
+                </div>
+                <div class="card-content">
+                    <span class="card-badge">Valores</span>
+                    <h3 class="card-title">Justicia y equidad</h3>
+                    <p class="card-subtitle">Aplicar normas y procedimientos de forma igualitaria, sin favoritismos, respetando los derechos de todos los usuarios.</p>
+                    <p class="card-price">Decisiones transparentes</p>
+                </div>
+            </div>
+            <div class="collection-card" data-category="accessories">
+                <div class="collection-thumbnail">
+                    <img loading="lazy" src="https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&w=1200&h=800&fit=crop" alt="Profesionales revisando ideas innovadoras con responsabilidad">
+                </div>
+                <div class="card-content">
+                    <span class="card-badge">Valores</span>
+                    <h3 class="card-title">Innovación responsable</h3>
+                    <p class="card-subtitle">Proponer mejoras tecnológicas evaluando su impacto social, legal y ético antes de implementarlas en la institución.</p>
+                    <p class="card-price">Tecnología con propósito</p>
+                </div>
+            </div>
+            <div class="collection-card" data-category="accessories">
+                <div class="collection-thumbnail">
+                    <img loading="lazy" src="https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&w=1200&h=800&fit=crop" alt="Personas colaborando con la comunidad">
+                </div>
+                <div class="card-content">
+                    <span class="card-badge">Valores</span>
+                    <h3 class="card-title">Compromiso con la comunidad</h3>
+                    <p class="card-subtitle">Usar la informática para apoyar proyectos sociales, educativos y de participación ciudadana en el municipio.</p>
+                    <p class="card-price">Tecnología para todos</p>
+                </div>
+            </div>
+            <div class="collection-card" data-category="accessories">
+                <div class="collection-thumbnail">
+                    <img loading="lazy" src="https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=1200&h=800&fit=crop" alt="Reunión transparente frente a una pantalla con datos">
+                </div>
+                <div class="card-content">
+                    <span class="card-badge">Valores</span>
+                    <h3 class="card-title">Transparencia</h3>
+                    <p class="card-subtitle">Compartir la información de forma clara y verificable, explicando decisiones técnicas y resultados a los ciudadanos.</p>
+                    <p class="card-price">Confianza en la gestión</p>
+                </div>
+            </div>
+            <div class="collection-card" data-category="accessories">
+                <div class="collection-thumbnail">
+                    <img loading="lazy" src="https://images.pexels.com/photos/3810792/pexels-photo-3810792.jpeg?auto=compress&cs=tinysrgb&w=1200&h=800&fit=crop" alt="Trabajador comprometido con su institución">
+                </div>
+                <div class="card-content">
+                    <span class="card-badge">Valores</span>
+                    <h3 class="card-title">Lealtad institucional</h3>
+                    <p class="card-subtitle">Defender los intereses legítimos de la institución sin caer en prácticas indebidas ni afectar a la ciudadanía.</p>
+                    <p class="card-price">Compromiso con la Alcaldía</p>
+                </div>
+            </div>
+            <div class="collection-card" data-category="accessories">
+                <div class="collection-thumbnail">
+                    <img loading="lazy" src="https://images.pexels.com/photos/1181359/pexels-photo-1181359.jpeg?auto=compress&cs=tinysrgb&w=1200&h=800&fit=crop" alt="Profesional revisando tareas con organización y puntualidad">
+                </div>
+                <div class="card-content">
+                    <span class="card-badge">Valores</span>
+                    <h3 class="card-title">Puntualidad y disciplina</h3>
+                    <p class="card-subtitle">Cumplir horarios, plazos de proyectos y normas internas, demostrando orden y responsabilidad en el trabajo diario.</p>
+                    <p class="card-price">Respeto por el tiempo</p>
+                </div>
+            </div>
+            <div class="collection-card" data-category="accessories">
+                <div class="collection-thumbnail">
+                    <img loading="lazy" src="https://images.pexels.com/photos/1181216/pexels-photo-1181216.jpeg?auto=compress&cs=tinysrgb&w=1200&h=800&fit=crop" alt="Iconos de candado y datos protegidos en una pantalla">
+                </div>
+                <div class="card-content">
+                    <span class="card-badge">Valores</span>
+                    <h3 class="card-title">Confidencialidad</h3>
+                    <p class="card-subtitle">Resguardar la información sensible, evitando filtraciones, comentarios inadecuados o uso no autorizado de datos.</p>
+                    <p class="card-price">Respeto por la privacidad</p>
+                </div>
+            </div>
+            <div class="collection-card" data-category="accessories">
+                <div class="collection-thumbnail">
+                    <img loading="lazy" src="https://images.pexels.com/photos/3810793/pexels-photo-3810793.jpeg?auto=compress&cs=tinysrgb&w=1200&h=800&fit=crop" alt="Equipo colaborando con actitud positiva frente a retos">
+                </div>
+                <div class="card-content">
+                    <span class="card-badge">Valores</span>
+                    <h3 class="card-title">Perseverancia y actitud positiva</h3>
+                    <p class="card-subtitle">Mantener la motivación ante fallos técnicos, buscando soluciones y aprendiendo de los errores sin rendirse.</p>
+                    <p class="card-price">Constancia en los proyectos</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="ethics-code" id="codigo-etica-informatica">
+        <div class="ethics-code-container">
+            <div class="ethics-code-header">
+                <span class="label">Principios y conducta</span>
+                <h2 class="hero-title">
+                    <span class="line"><span>Código de ética de</span></span>
+                    <span class="line"><span>la <span class="accent">Informática</span> en la Alcaldía</span></span>
+                </h2>
+                <p>Este código orienta la forma en que el personal y los estudiantes de informática deben actuar al manejar sistemas, datos y servicios tecnológicos dentro de la administración pública.</p>
+            </div>
+
+            <div class="ethics-code-grid">
+                <div class="ethics-code-item">
+                    <div class="ethics-code-image">
+                        <img loading="lazy" src="https://images.pexels.com/photos/3861958/pexels-photo-3861958.jpeg?auto=compress&cs=tinysrgb&w=1200&h=800&fit=crop" alt="Equipo de informática conversando en un ambiente de trabajo colaborativo">
+                    </div>
+                    <div class="ethics-code-text">
+                        <h3>Respeto y trato digno</h3>
+                        <p>Relacionarse con usuarios, compañeros y autoridades con cortesía, paciencia y empatía, evitando comentarios ofensivos o discriminatorios.</p>
+                    </div>
+                </div>
+
+                <div class="ethics-code-item">
+                    <div class="ethics-code-image">
+                        <img loading="lazy" src="https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg?auto=compress&cs=tinysrgb&w=1200&h=800&fit=crop" alt="Profesional analizando información en varios monitores">
+                    </div>
+                    <div class="ethics-code-text">
+                        <h3>Honestidad con la información</h3>
+                        <p>No ocultar fallos graves, no manipular datos y comunicar con claridad los riesgos y limitaciones de los sistemas.</p>
+                    </div>
+                </div>
+
+                <div class="ethics-code-item">
+                    <div class="ethics-code-image">
+                        <img loading="lazy" src="https://images.pexels.com/photos/1181355/pexels-photo-1181355.jpeg?auto=compress&cs=tinysrgb&w=1200&h=800&fit=crop" alt="Persona trabajando con documentos y computadora en una oficina pública">
+                    </div>
+                    <div class="ethics-code-text">
+                        <h3>Responsabilidad en el servicio público</h3>
+                        <p>Usar los recursos tecnológicos solo para fines institucionales, cuidando equipos, redes y aplicaciones confiadas al área de informática.</p>
+                    </div>
+                </div>
+
+                <div class="ethics-code-item">
+                    <div class="ethics-code-image">
+                        <img loading="lazy" src="https://images.pexels.com/photos/1181244/pexels-photo-1181244.jpeg?auto=compress&cs=tinysrgb&w=1200&h=800&fit=crop" alt="Manos escribiendo código en una laptop con iconos de seguridad">
+                    </div>
+                    <div class="ethics-code-text">
+                        <h3>Confidencialidad y seguridad</h3>
+                        <p>Proteger contraseñas, respaldos y datos sensibles, cumpliendo la Ley de Delitos Informáticos y las políticas internas de la Alcaldía.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="featured" id="delitos-informaticos">
+        <div class="featured-container">
+            <div class="featured-content">
+                <span class="label">Marco legal y protección</span>
+                <h2>Ley de Delitos Informáticos</h2>
+                <p>La Ley de Delitos Informáticos protege los sistemas, datos y servicios digitales frente a accesos no autorizados, daños a la información y uso indebido de recursos tecnológicos. Todo profesional en informática debe conocerla y respetarla.</p>
+                <div class="cyberlaw-grid">
+                    <div class="cyberlaw-item">
+                        <div class="cyberlaw-text">
+                            <div class="highlight-icon"><i class="bi bi-shield-lock"></i></div>
+                            <h3 class="highlight-title">Protección de la información</h3>
+                            <p class="highlight-desc">Sanciona el acceso sin permiso, la alteración o destrucción de datos, bases de datos y sistemas críticos del sector público y privado.</p>
+                        </div>
+                        <div class="cyberlaw-image">
+                            <img loading="lazy" src="https://img.freepik.com/premium-photo/hacker-hacker-photo-cyber-crime-coding-photo-boy-coding-hacker-computer-hacking-hacking-pho_860112-830.jpg?w=2000" alt="Escudo de seguridad informática sobre datos protegidos">
+                        </div>
+                    </div>
+                    <div class="cyberlaw-item">
+                        <div class="cyberlaw-text">
+                            <div class="highlight-icon"><i class="bi bi-hdd-network"></i></div>
+                            <h3 class="highlight-title">Uso correcto de sistemas</h3>
+                            <p class="highlight-desc">Regula el uso de redes, equipos y credenciales, evitando el uso indebido de recursos tecnológicos, cuentas institucionales o sistemas oficiales.</p>
+                        </div>
+                        <div class="cyberlaw-image">
+                            <img loading="lazy" src="https://images.pexels.com/photos/1181243/pexels-photo-1181243.jpeg?auto=compress&cs=tinysrgb&w=800&h=500&fit=crop" alt="Centro de datos y redes conectadas">
+                        </div>
+                    </div>
+                    <div class="cyberlaw-item">
+                        <div class="cyberlaw-text">
+                            <div class="highlight-icon"><i class="bi bi-person-exclamation"></i></div>
+                            <h3 class="highlight-title">Responsabilidad del informático</h3>
+                            <p class="highlight-desc">El TSU en Informática debe actuar con ética, resguardar claves, respetar los niveles de acceso y reportar cualquier intento de delito informático.</p>
+                        </div>
+                        <div class="cyberlaw-image">
+                            <img loading="lazy" src="https://images.pexels.com/photos/3861964/pexels-photo-3861964.jpeg?auto=compress&cs=tinysrgb&w=800&h=500&fit=crop" alt="Profesional de informática trabajando con responsabilidad ética">
+                        </div>
+                    </div>
+                    <div class="cyberlaw-item">
+                        <div class="cyberlaw-text">
+                            <div class="highlight-icon"><i class="bi bi-bug-fill"></i></div>
+                            <h3 class="highlight-title">Ciberdelitos frecuentes</h3>
+                            <p class="highlight-desc">Incluye ataques a servidores, difusión de malware, robo de identidad digital, fraude electrónico y manipulación no autorizada de información.</p>
+                        </div>
+                        <div class="cyberlaw-image">
+                            <img loading="lazy" src="https://images.pexels.com/photos/5380642/pexels-photo-5380642.jpeg?auto=compress&cs=tinysrgb&w=800&h=500&fit=crop" alt="Representación visual de ciberdelitos y amenazas digitales">
+                        </div>
+                    </div>
+                </div>
+                <a href="#contact" class="feature-cta">¿Dudas sobre la ley? Escríbenos en contacto</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="skills-section" id="habilidades">
+        <div class="skills-container">
+            <div class="skills-header">
+                <span class="label skills-label">Perfil profesional</span>
+                <h2 class="hero-title">
+                    <span class="line"><span>Habilidades y destrezas</span></span>
+                    <span class="line"><span>de un trabajador <span class="accent">Informático</span></span></span>
+                </h2>
+                <p>Estas habilidades combinan lo técnico y lo humano: permiten diseñar soluciones, comunicarse con
+                    usuarios y autoridades, proteger la información y mantener en funcionamiento los sistemas de la
+                    organización.</p>
+            </div>
+
+            <div class="skills-carousel">
+                <div class="skills-track" id="skillsCarousel">
+                    <div class="skill-card">
+                        <div class="skill-image">
+                            <img loading="lazy" src="https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg?auto=compress&cs=tinysrgb&w=1200&h=800&fit=crop" alt="Informático analizando código y diagramas en pantalla">
+                        </div>
+                        <div class="skill-content">
+                            <h3>Pensamiento lógico y análisis</h3>
+                            <p>Interpretar requerimientos, analizar datos y dividir un problema grande en partes más
+                                pequeñas. Esta habilidad permite diseñar algoritmos claros y tomar decisiones basadas en
+                                evidencia, no en suposiciones.</p>
+                        </div>
+                    </div>
+
+                    <div class="skill-card">
+                        <div class="skill-image">
+                            <img loading="lazy" src="https://images.pexels.com/photos/1181263/pexels-photo-1181263.jpeg?auto=compress&cs=tinysrgb&w=1200&h=800&fit=crop" alt="Equipo de trabajo colaborando frente a computadores">
+                        </div>
+                        <div class="skill-content">
+                            <h3>Comunicación y trabajo en equipo</h3>
+                            <p>Escuchar a usuarios, explicar temas técnicos con un lenguaje sencillo y coordinarse con
+                                otras áreas (soporte, administración, dirección) para que la solución tecnológica realmente
+                                responda a las necesidades del organismo.</p>
+                        </div>
+                    </div>
+
+                    <div class="skill-card">
+                        <div class="skill-image">
+                            <img loading="lazy" src="https://images.pexels.com/photos/3861972/pexels-photo-3861972.jpeg?auto=compress&cs=tinysrgb&w=1200&h=800&fit=crop" alt="Profesional estudiando nuevas tecnologías en su computadora">
+                        </div>
+                        <div class="skill-content">
+                            <h3>Aprendizaje continuo y adaptación</h3>
+                            <p>Actualizarse en nuevas tecnologías, normativas y principios éticos relacionados con la informática.</p>
+                        </div>
+                    </div>
+
+                    <div class="skill-card">
+                        <div class="skill-image">
+                            <img loading="lazy" src="https://images.pexels.com/photos/5380613/pexels-photo-5380613.jpeg?auto=compress&cs=tinysrgb&w=1200&h=800&fit=crop" alt="Iconos de seguridad y candados digitales en una pantalla">
+                        </div>
+                        <div class="skill-content">
+                            <h3>Seguridad, ética y responsabilidad</h3>
+                            <p>Proteger usuarios, contraseñas, respaldos y sistemas críticos. Implica cumplir la Ley de
+                                Delitos Informáticos, seguir políticas internas y actuar con honestidad ante incidentes o
+                                vulnerabilidades.</p>
+                        </div>
+                    </div>
+
+                    <div class="skill-card">
+                        <div class="skill-image">
+                            <img loading="lazy" src="https://images.pexels.com/photos/3861974/pexels-photo-3861974.jpeg?auto=compress&cs=tinysrgb&w=1200&h=800&fit=crop" alt="Persona resolviendo problemas frente a una laptop con gráficos">
+                        </div>
+                        <div class="skill-content">
+                            <h3>Resolución de problemas y soporte</h3>
+                            <p>Identificar la causa raíz de un fallo, proponer alternativas, probarlas y documentar lo que
+                                se hizo. Incluye dar soporte a usuarios con paciencia y explicarles cómo evitar futuros
+                                errores.</p>
+                        </div>
+                    </div>
+
+                    <div class="skill-card">
+                        <div class="skill-image">
+                            <img loading="lazy" src="https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=1200&h=800&fit=crop" alt="Mesa de trabajo organizada con computadora, agenda y documentos">
+                        </div>
+                        <div class="skill-content">
+                            <h3>Organización, planificación y documentación</h3>
+                            <p>Priorizar tareas, manejar tiempos de respuesta y dejar evidencias claras (manuales,
+                                diagramas, actas) para que cualquier integrante del equipo pueda continuar el trabajo sin
+                                perder información importante.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills-dots" id="skillsDots"></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="ethics-section" id="desafios-eticos">
+        <div class="ethics-container">
+            <div class="ethics-header">
+                <span class="label">Desafíos éticos</span>
+                <h2 class="hero-title">
+                    <span class="line"><span>Desafíos éticos de</span></span>
+                    <span class="line"><span>un <span class="accent">Informático</span> y estudiantes</span></span>
+                </h2>
+                <p>Situaciones reales donde el profesional y el estudiante de informática deben decidir entre hacer
+                    "lo fácil" o hacer "lo correcto" al manejar datos, sistemas y personas.</p>
+            </div>
+
+            <div class="ethics-carousel">
+                <div class="ethics-track" id="ethicsCarousel">
+                    <div class="ethic-card">
+                        <div class="ethic-image">
+                            <img loading="lazy" src="https://images.pexels.com/photos/5380612/pexels-photo-5380612.jpeg?auto=compress&cs=tinysrgb&w=1200&h=800&fit=crop" alt="Pantalla con inicio de sesión y credenciales protegidas">
+                        </div>
+                        <div class="ethic-content">
+                            <h3>Uso responsable de credenciales</h3>
+                            <p>Un informático o estudiante puede tener acceso a usuarios y contraseñas de sistemas
+                                internos. El desafío ético está en no compartirlas, no usarlas para fines personales ni
+                                acceder a información que no le corresponde.</p>
+                        </div>
+                    </div>
+
+                    <div class="ethic-card">
+                        <div class="ethic-image">
+                            <img loading="lazy" src="https://images.pexels.com/photos/1181345/pexels-photo-1181345.jpeg?auto=compress&cs=tinysrgb&w=1200&h=800&fit=crop" alt="Persona revisando documentos y datos confidenciales en la computadora">
+                        </div>
+                        <div class="ethic-content">
+                            <h3>Confidencialidad de la información</h3>
+                            <p>Al desarrollar sistemas o hacer prácticas, se puede ver datos personales, historias
+                                clínicas o información financiera. Éticamente se debe guardar silencio profesional y
+                                proteger esos datos incluso fuera del horario de trabajo o estudio.</p>
+                        </div>
+                    </div>
+
+                    <div class="ethic-card">
+                        <div class="ethic-image">
+                            <img loading="lazy" src="https://images.pexels.com/photos/1181678/pexels-photo-1181678.jpeg?auto=compress&cs=tinysrgb&w=1200&h=800&fit=crop" alt="Programador analizando código con posibles vulnerabilidades de seguridad">
+                        </div>
+                        <div class="ethic-content">
+                            <h3>Reporte de vulnerabilidades</h3>
+                            <p>Al detectar un fallo de seguridad, el informático puede callar, aprovecharlo o reportarlo.
+                                El comportamiento ético es informar a los responsables, documentar el hallazgo y ayudar a
+                                corregirlo sin divulgarlo públicamente.</p>
+                        </div>
+                    </div>
+
+                    <div class="ethic-card">
+                        <div class="ethic-image">
+                            <img loading="lazy" src="https://images.pexels.com/photos/1181346/pexels-photo-1181346.jpeg?auto=compress&cs=tinysrgb&w=1200&h=800&fit=crop" alt="Estudiantes compartiendo apuntes y código en una mesa de estudio">
+                        </div>
+                        <div class="ethic-content">
+                            <h3>Plagio y copia de trabajos</h3>
+                            <p>En la carrera de informática es común compartir código. El reto ético consiste en aprender
+                                de ejemplos sin copiar proyectos completos, citar fuentes y respetar el esfuerzo de otros
+                                compañeros y desarrolladores.</p>
+                        </div>
+                    </div>
+
+                    <div class="ethic-card">
+                        <div class="ethic-image">
+                            <img loading="lazy" src="https://images.pexels.com/photos/1181460/pexels-photo-1181460.jpeg?auto=compress&cs=tinysrgb&w=1200&h=800&fit=crop" alt="Reunión donde se toman decisiones sobre sistemas informáticos">
+                        </div>
+                        <div class="ethic-content">
+                            <h3>Presión para alterar datos</h3>
+                            <p>En algunos contextos se pueden recibir órdenes para modificar registros, borrar
+                                evidencias o cambiar estadísticas. El informático ético debe negarse, explicar las
+                                consecuencias legales y proponer soluciones dentro del marco de la ley.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="ethics-dots" id="ethicsDots"></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="decalogue" id="decalogo-etico">
+        <div class="decalogue-container">
+            <div class="decalogue-header">
+                <span class="label">Decálogo ético</span>
+                <h2 class="hero-title">
+                    <span class="line"><span>Decálogo ético del</span></span>
+                    <span class="line"><span><span class="accent">Informático</span> y del estudiante</span></span>
+                </h2>
+                <p>Diez compromisos básicos para actuar con responsabilidad al desarrollar, administrar y usar sistemas de información en la Alcaldía y en cualquier organización.</p>
+            </div>
+
+            <div class="decalogue-grid">
+                <div class="decalogue-item">
+                    <div class="decalogue-number">01</div>
+                    <div class="decalogue-icon"><i class="bi bi-shield-lock"></i></div>
+                    <h3>Proteger las credenciales</h3>
+                    <p>Respetar y resguardar usuarios y contraseñas, evitando compartirlas o utilizarlas para fines personales.</p>
+                </div>
+
+                <div class="decalogue-item">
+                    <div class="decalogue-number">02</div>
+                    <div class="decalogue-icon"><i class="bi bi-file-earmark-lock"></i></div>
+                    <h3>Cuidar la confidencialidad</h3>
+                    <p>Tratar toda la información sensible como un secreto profesional, incluso fuera del horario laboral o académico.</p>
+                </div>
+
+                <div class="decalogue-item">
+                    <div class="decalogue-number">03</div>
+                    <div class="decalogue-icon"><i class="bi bi-bug"></i></div>
+                    <h3>Reportar vulnerabilidades</h3>
+                    <p>Informar de manera responsable sobre fallos de seguridad y colaborar en su corrección sin aprovecharlos.</p>
+                </div>
+
+                <div class="decalogue-item">
+                    <div class="decalogue-number">04</div>
+                    <div class="decalogue-icon"><i class="bi bi-people"></i></div>
+                    <h3>Respetar a usuarios y colegas</h3>
+                    <p>Escuchar con paciencia, explicar en lenguaje claro y evitar conductas que humillen o desvaloricen a otros.</p>
+                </div>
+
+                <div class="decalogue-item">
+                    <div class="decalogue-number">05</div>
+                    <div class="decalogue-icon"><i class="bi bi-journal-code"></i></div>
+                    <h3>Rechazar el plagio</h3>
+                    <p>Reconocer las fuentes, aprender de ejemplos sin copiar proyectos completos y valorar el esfuerzo propio y ajeno.</p>
+                </div>
+
+                <div class="decalogue-item">
+                    <div class="decalogue-number">06</div>
+                    <div class="decalogue-icon"><i class="bi bi-graph-up-arrow"></i></div>
+                    <h3>Ser honesto con los resultados</h3>
+                    <p>No alterar estadísticas, informes ni registros para beneficiar a personas, grupos o intereses particulares.</p>
+                </div>
+
+                <div class="decalogue-item">
+                    <div class="decalogue-number">07</div>
+                    <div class="decalogue-icon"><i class="bi bi-cloud-arrow-down"></i></div>
+                    <h3>Usar legalmente el software</h3>
+                    <p>Respetar licencias, evitar la piratería y promover el uso responsable de herramientas tecnológicas.</p>
+                </div>
+
+                <div class="decalogue-item">
+                    <div class="decalogue-number">08</div>
+                    <div class="decalogue-icon"><i class="bi bi-exclamation-triangle"></i></div>
+                    <h3>Prevenir antes que lamentar</h3>
+                    <p>Mantener respaldos, actualizar sistemas y aplicar buenas prácticas de seguridad de forma constante.</p>
+                </div>
+
+                <div class="decalogue-item">
+                    <div class="decalogue-number">09</div>
+                    <div class="decalogue-icon"><i class="bi bi-mortarboard"></i></div>
+                    <h3>Seguir aprendiendo</h3>
+                    <p>Actualizarse en nuevas tecnologías, normativas y principios éticos relacionados con la informática.</p>
+                </div>
+
+                <div class="decalogue-item">
+                    <div class="decalogue-number">10</div>
+                    <div class="decalogue-icon"><i class="bi bi-patch-check"></i></div>
+                    <h3>Priorizar siempre lo correcto</h3>
+                    <p>Tomar decisiones alineadas con la ley, la ética profesional y el bien común, aunque impliquen decir que no.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="contact-container">
+            <div class="contact-header">
+                <h2 class="section-title">Contacto</h2>
+                <p class="section-subtitle">Déjanos tus comentarios sobre la entrevista</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-form-wrapper">
+                    <form id="contactForm">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="firstName">Nombre</label>
+                                <input type="text" id="firstName" name="firstName" placeholder="Nombre" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="lastName">Apellido</label>
+                                <input type="text" id="lastName" name="lastName" placeholder="Apellido" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Correo electrónico</label>
+                            <input type="email" id="email" name="email" placeholder="correo@ejemplo.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Asunto</label>
+                            <input type="text" id="subject" name="subject" placeholder="¿Sobre qué trata tu mensaje?" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Mensaje</label>
+                            <textarea id="message" name="message" placeholder="Escribe aquí tus comentarios o preguntas..." required></textarea>
+                        </div>
+                        <button type="submit" class="form-submit">Enviar mensaje</button>
+                    </form>
+                </div>
+                <div class="contact-info">
+                    <div class="info-item">
+                        <div class="info-icon"><i class="bi bi-geo-alt-fill"></i></div>
+                        <div class="info-content">
+                            <h3>Ubicación de la Alcaldía</h3>
+                            <p>Alcaldía del Municipio Iribarren<br>
+                            Oficina de Informática<br>
+                            Barquisimeto, Venezuela</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon"><i class="bi bi-telephone-fill"></i></div>
+                        <div class="info-content">
+                            <h3>Teléfonos de contacto</h3>
+                            <p>Central: <a href="tel:+580000000000">+58 (000) 000 0000</a><br>
+                            Soporte: <a href="tel:+580000000001">+58 (000) 000 0001</a><br>
+                            Lunes a Viernes, 8:00 a.m. - 4:00 p.m.</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon"><i class="bi bi-envelope-fill"></i></div>
+                        <div class="info-content">
+                            <h3>Correo electrónico</h3>
+                            <p>General: <a href="mailto:informatica@iribarren.gob">informatica@iribarren.gob</a><br>
+                            Soporte: <a href="mailto:soporte@iribarren.gob">soporte@iribarren.gob</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="map-section">
+                <div class="map-container">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3927.884046814086!2d-69.347351!3d10.067772!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e8767f1c3c5c9b7%3A0x0000000000000000!2sBarquisimeto%2C%20Municipio%20Iribarren%2C%20Lara%2C%20Venezuela!5e0!3m2!1ses-419!2sve!4v1702140000000" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-brand">
+                <h3>Entrevista a un Informático</h3>
+                <p>Análisis de la visión, misión, valores, cultura organizacional, desafíos éticos y perfil del TSU en
+                    Informática en la Oficina de Informática de la Alcaldía del Municipio Iribarren.</p>
+                <!-- Incluye Font Awesome en tu proyecto -->
+                <div class="social-links">
+                <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-pinterest-p"></i></a>
+                </div>
+            </div>
+            <div class="footer-column">
+                <h4>Autores</h4>
+                <ul>
+                    <li><a href="#">Eudy Nelo - 29.880.393</a></li>
+                    <li><a href="#">Michelle Siria - 30.591.005</a></li>
+                    <li><a href="#">Angello Aponte - 31.467.289</a></li>
+                    <li><a href="#">Javier Zambrano - 30.716.647</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4>Temas tratados</h4>
+                <ul>
+                    <li><a href="#collections">Visión y misión</a></li>
+                    <li><a href="#collections">Valores</a></li>
+                    <li><a href="#featured">Cultura organizacional</a></li>
+                    <li><a href="#featured">Desafíos éticos</a></li>
+                    <li><a href="#featured">Código ético</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4>Información adicional</h4>
+                <ul>
+                    <li><a href="#">Oficina de Informática</a></li>
+                    <li><a href="#">Alcaldía del Municipio Iribarren</a></li>
+                    <li><a href="#">Ética profesional</a></li>
+                    <li><a href="#">Formación del TSU</a></li>
+                    <li><a href="#">Dificultades en la carrera</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+        <p>&copy; 2025 Entrevista a un Informático. Todos los derechos reservados. | Plantilla diseñada por 
+            <a href="https://github.com/Tuteque-man" target="_blank" rel="nofollow" style="color: var(--accent); text-decoration: none;">
+            Tuteque-man
+            </a>
+        </p>
+        
+        <div class="payment-methods">
+            <a href="#" class="payment-icon"><i class="fab fa-cc-visa"></i></a>
+            <a href="#" class="payment-icon"><i class="fab fa-cc-mastercard"></i></a>
+            <a href="#" class="payment-icon"><i class="fab fa-cc-amex"></i></a>
+            <a href="#" class="payment-icon"><i class="fab fa-cc-paypal"></i></a>
+        </div>
+        </div>
+
+    </footer>
+
+    <script src="eticamix.js"></script>
+</body>
+</html>
